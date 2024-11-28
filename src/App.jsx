@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Header from './Components/Header'
 import Profile from './Components/Profile'
-import AboutMe from './Components/AboutMe' 
+
 
 const App = () => {
   const [count, setCount] = useState(0)
@@ -10,7 +10,7 @@ const App = () => {
     <>
       <Header />
       <Profile />
-      <AboutMe />
+
       
     </>
   )
